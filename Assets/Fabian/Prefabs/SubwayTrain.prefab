@@ -594,6 +594,7 @@ GameObject:
   - component: {fileID: 6101807019417858798}
   - component: {fileID: 599762665}
   - component: {fileID: 5973521693494629109}
+  - component: {fileID: 1430597914762119042}
   m_Layer: 0
   m_Name: SubwayTrain
   m_TagString: Untagged
@@ -716,9 +717,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 372859f7f275a4d40886ab2c1a56444c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 018ab8102d09f7e4ba208485b30e1206, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.569
+  m_Volume: 0.48
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -757,15 +758,15 @@ AudioSource:
     - serializedVersion: 3
       time: 0.59705895
       value: 0.44913405
-      inSlope: -0.08649586
-      outSlope: -0.08649586
+      inSlope: -1.3010988
+      outSlope: -1.3010988
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.43720573
+      outWeight: 0.4189797
     - serializedVersion: 3
-      time: 1
-      value: 0.32037354
+      time: 0.9762573
+      value: 0.1452179
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -820,6 +821,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1430597914762119042
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6101807019415596206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 71.18671, y: 20.937872, z: 30.103746}
+  m_Center: {x: -37.683903, y: -7.8152547, z: 14.538656}
 --- !u!1 &6101807019415596214
 GameObject:
   m_ObjectHideFlags: 0

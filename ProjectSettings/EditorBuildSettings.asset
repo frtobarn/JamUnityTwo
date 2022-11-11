@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Fabian/Scenes/SceneryTwo.unity
+    guid: c8e9c74f7a921904fa2f4bea0ed73319
   m_configObjects: {}

@@ -8,7 +8,7 @@ public class MoveTrain : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.right * speed * Time.deltaTime);
-        if (transform.position.x > 18)
+        if (transform.position.x > 25)
         {
             Destroy(gameObject);
         }

@@ -13,7 +13,7 @@ public class MoveVehicle : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if (transform.position.x < -80)
+        else if (transform.position.x < -100)
         {
             Destroy(gameObject);
         }

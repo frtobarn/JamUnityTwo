@@ -6,29 +6,34 @@ public class PlayerBallController : MonoBehaviour
 {
     //PLAYER MOVEMENT
     public Rigidbody playerRb;
-    
+
     //public float horizontalInput;
     //public float verticalInput;
     public float floatForce = 10.0f;
+
     public float speed = 15.0f;
 
     private bool isJumping;
 
     //AUDIOS
     private AudioSource playerAudioSource;
+
     public AudioClip jumpSound;
+
     // Start is called before the first frame update
     void Start()
     {
         playerAudioSource = GetComponent<AudioSource>();
+        playerAudioSource.volume = 0.2f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isJumping){
+        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+        {
             isJumping = true;
-            playerAudioSource.PlayOneShot(jumpSound);
+            playerAudioSource.PlayOneShot (jumpSound);
             playerRb.AddForce(Vector3.up * floatForce, ForceMode.Impulse);
         }
         /*
@@ -45,11 +50,12 @@ public class PlayerBallController : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }*/
-        
     }
 
-    private void OnCollisionEnter(Collision other) {
-        if (other.gameObject.CompareTag("Ground")){
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
             isJumping = false;
         }
     }

@@ -9,7 +9,7 @@ public class MoveVehicle : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        if (transform.position.x > 70)
+        if (transform.position.x > 85)
         {
             Destroy(gameObject);
         }

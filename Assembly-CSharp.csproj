@@ -41,10 +41,11 @@
      <Compile Include="Assets\Fabian\Scripts\MoveVehicle.cs" />
      <Compile Include="Assets\Fabian\Scripts\MoveTrain.cs" />
      <Compile Include="Assets\Project_Files\PlayerRocket\PlayerRocketScripts\PlayerControllerRocket.cs" />
+     <Compile Include="Assets\Puppet Kid\Readme\Scripts\Readme.cs" />
      <Compile Include="Assets\Fabian\Scripts\SpawnManager.cs" />
      <Compile Include="Assets\Project_Files\PlayerBall\PlayerBallScripts\PlayerBallController.cs" />
-     <Compile Include="Assets\Puppet Kid\Readme\Scripts\Readme.cs" />
      <None Include="Assets\Project_Files\Materials\UnlitVertexColour_Alpha.shader" />
+     <None Include="Assets\Fabian\Imports\Course Library\_Source_Files\_LICENSE.txt" />
      <None Include="Assets\Fabian\Imports\SubwayTrain\Shader\Model Shader DX9.shader" />
      <None Include="Assets\Fabian\Imports\POLYGON city pack\Read_me.txt" />
      <None Include="Assets\Fabian\Imports\SubwayTrain\Shader\Model Shader DX11.shader" />
